@@ -1,0 +1,49 @@
+/* ESTILOS NAVBAR */
+.header .navbar-brand {
+    color: white !important;
+  }
+  
+  .header .nav-link {
+    color: white !important;
+    font-size: 18px;
+    transition: all 0.5s ease;
+    margin: 20px;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5); 
+  }
+  
+  .header .nav-link:hover {
+    color: black !important;
+    padding: 5px 10px;
+    background: white;
+    border-radius: 10px;
+  }
+  
+  @media(max-width: 1000px) {
+    .nav-link {
+        text-align: center;
+    }
+  }
+  
+  .header .navbar {
+    background-color: #000000 !important;
+    
+  }
+/*FOOTER*/
+footer{
+    background-color: black;
+  }
+  
+  #Copyright{
+    background-color: rgba(0, 0, 0, 0.2);
+  }
+  
+  #FooterLine{
+    background-color: black;
+    height: 3px;
+    width: 60px;                    
+  }
+  
+  .my-5{
+    margin: 0%;
+  }
+    

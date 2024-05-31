@@ -1,0 +1,145 @@
+/* ESTILOS NAVBAR */
+.header .navbar-brand {
+    color: white !important;
+  }
+  
+  .header .nav-link {
+    color: white !important;
+    font-size: 18px;
+    transition: all 0.5s ease;
+    margin: 20px;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5); 
+  }
+  
+  .header .nav-link:hover {
+    color: black !important;
+    padding: 5px 10px;
+    background: white;
+    border-radius: 10px;
+  }
+  
+  @media(max-width: 1000px) {
+    .nav-link {
+        text-align: center;
+    }
+  }
+  
+  .header .navbar {
+    background-color: #000000 !important;
+    
+  }
+  
+  /* VIDEO Y CAPA */
+  .video-container {
+    position: relative;
+    width: 100%;
+    overflow: hidden;
+    background: #000;
+  }
+  
+  .video-container::before {
+    content: "";
+    display: block;
+    padding-top: 56.25%; 
+  }
+  
+  .video-container video {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+  
+  .capa {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: #1c1c1d;
+    opacity: 0.5;
+    mix-blend-mode: overlay;
+  }
+  #seccion2 {
+    position: relative;
+    width: 100%;
+  }
+  
+  /* LETRAS DE BIENVENIDA */
+  .intro {
+    position: absolute;
+    top: 50%;
+    left: 5%;
+    transform: translateY(-50%);
+    color: white;
+    text-align: left;
+    z-index: 2;
+  }
+  
+  .intro h1 {
+    font-size: 4vw; /* Tamaño relativo para ser responsivo */
+  }
+  
+  .intro h3 {
+    font-size: 2.5vw; /* Tamaño relativo para ser responsivo */
+  }
+  
+  .intro p {
+    font-size: 2vw; /* Tamaño relativo para ser responsivo */
+  }
+  
+  .nav-link .fas {
+    color: white;
+    margin-right: 5px; /* Ajusta el espacio entre el icono y el texto */
+  }
+  
+  .nav-link .fas:hover {
+    color: black !important;
+    margin-right: 5px; /* Ajusta el espacio entre el icono y el texto */
+  }
+  .icon {
+    display: inline-block;
+    width: 32px;
+    height: 32px;
+    margin: 0 10px;
+    font-size: 24px;
+    color: white;
+  }
+  
+  /*FOOTER*/
+  footer{
+    background-color: black;
+  }
+  
+  #Copyright{
+    background-color: rgba(0, 0, 0, 0.2);
+  }
+  
+  #FooterLine{
+    background-color: black;
+    height: 3px;
+    width: 60px;                    
+  }
+  
+  .my-5{
+    margin: 0%;
+  }
+ 
+  /*ESTILO PARA LA CARD*/
+  .card{
+    color:black;
+    margin-top: 10px ;
+    margin-left: 5px;
+    margin-right: 5px;
+    margin-bottom: 10px;
+    
+  }
+  .card-img-top {
+    width:100% ;
+    height: auto; /* Altura fija para las imágenes */
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+  }
+  
