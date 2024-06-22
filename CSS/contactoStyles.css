@@ -46,4 +46,14 @@ footer{
   .my-5{
     margin: 0%;
   }
+  /*FORM*/
+.bg{
+  background: black;
+  border-radius: 3%;
+  color: aliceblue;
+}
+#textarea{
+  resize: none;
+}
+
     

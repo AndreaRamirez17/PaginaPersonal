@@ -46,4 +46,6 @@ footer{
   .my-5{
     margin: 0%;
   }
-    
+#cvframe {
+  padding-top: none; /* Ajusta esto al tamaño de tu navbar */
+}
